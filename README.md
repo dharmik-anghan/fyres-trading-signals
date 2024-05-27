@@ -2,6 +2,11 @@
 
 This project helps you generate trading signals using the Fyres API. It allows you to automate the process of monitoring stocks and receiving trading signals.
 
+## Warning
+
+This repository is intended for educational purposes only. The implementation of the EMA strategy is arbitrary and should not be used for actual trading. Consider developing, backtesting, and implementing a different strategy.
+
+
 ## Setup Instructions
 
 ### 1. Clone the Repo

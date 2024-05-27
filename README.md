@@ -4,7 +4,18 @@ This project helps you generate trading signals using the Fyres API. It allows y
 
 ## Setup Instructions
 
-### 1. Create a Virtual Environment
+### 1. Clone the Repo
+
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/dharmik-anghan/fyres-trading-signals.git
+```
+Navigate to the project directory:
+```bash
+cd fyres-trading-signals
+```
+
+### 2. Create a Virtual Environment
 
 First, create a virtual environment to manage your project's dependencies:
 
@@ -24,7 +35,7 @@ For Linux:
 source venv/bin/activate
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 
 Install the necessary dependencies listed in the requirements.txt file:
 
@@ -32,7 +43,7 @@ Install the necessary dependencies listed in the requirements.txt file:
 pip install -r requirements.txt
 ```
 
-### 3. Configure Your Environment Variables
+### 4. Configure Your Environment Variables
 Copy the sample environment file and add your secrets:
 ```bash
 cp .env-sample .env
@@ -52,10 +63,10 @@ TELEGRAM_CHAT_ID=
 TELEGRAM_API_TOKEN=
 ```
 
-### 4. Add Your Stocks
+### 5. Add Your Stocks
 You can add the stocks you want to monitor in the stocks.csv file. Ensure each stock is listed on a new line.
 
-### 5. Run the Main Script
+### 6. Run the Main Script
 Run the main Python script to start generating trading signals:
 ```bash
 python main.py
